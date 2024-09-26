@@ -1,0 +1,17 @@
+import logo from './logo.svg';
+import './App.css';
+import Login from './login';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './Home';
+
+
+function App() {
+  return (
+    <div>
+      <Login/>
+      <Home/>
+    </div>
+  );
+}
+
+export default App;
